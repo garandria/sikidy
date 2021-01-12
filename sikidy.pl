@@ -11,14 +11,23 @@ ampianaL([X1, X2, X3, X4],
 	ampiana(X3, Y3, D),
 	ampiana(X4, Y4, E).
 
-reniny([[2, 2, 2, 1],
-	[2, 2, 1, 2],
-	[2, 2, 1, 1],
-	[2, 1, 1, 1]]).
-
 ankitsapaka([A, B, D, E]) :-
 	random(1, 3, A), random(1, 3, B),
 	random(1, 3, D), random(1, 3, E).
+
+trr([[X1, X2, X3, X4],
+     [Y1, Y2, Y3, Y4],
+     [Z1, Z2, Z3, Z4],
+     [A1, A2, A3, A4]],
+    [[A1, Z1, Y1, X1],
+     [A2, Z2, Y2, X2],
+     [A3, Z3, Y3, X3],
+     [A4, Z4, Y4, X4]]).
+
+reniny(R) :-
+	ankitsapaka(A), ankitsapaka(B),
+	ankitsapaka(D), ankitsapaka(E),
+	trr([A, B, D, E], R).
 
 % col
 
