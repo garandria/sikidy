@@ -68,3 +68,25 @@ fahasivy(R, V) :-
 	alisay(R, L),
 	fahavalo(R, L1),
 	ampianaL(L, L1, V).
+
+%2
+saily(R, V) :-
+	safary(R, L),
+	asorita(R, L1),
+	ampianaL(L, L1, V).
+
+ombiasy(R, V) :-
+	fahasivy(R, L),
+	haja(R, L1),
+	ampianaL(L, L1,  V).
+
+haky(R, V) :-
+	ombiasy(R, L),
+	saily(R, L1),
+	ampianaL(L, L1, V).
+
+%3
+kiba(R, V) :-
+	haky(R, L),
+	tale(R, L1),
+	ampianaL(L, L1, V).
