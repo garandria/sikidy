@@ -135,6 +135,7 @@ zanany(R, V) :-
 	fahasivy(R, FAHASIVY),
 	tr([KIBA, SAFARY, SAILY, ASORITA, HAKY, HAJA, OMBIASY, FAHASIVY], V).
 
+misikidy :- reniny(R), asehoy(R), zanany(R, Z), asehoy(Z).
 
 tareky([1, 1, 1, 1]).
 alasady([1, 1, 2, 2]).
