@@ -46,3 +46,25 @@ alisay([_, _, X |_], X).
 fahavalo([_, _, _, X], X).
 
 
+% zanany
+
+%1
+safary(R, V) :-
+	tale(R, L),
+	maly(R, L1),
+	ampianaL(L, L1, V).
+
+asorita(R, V) :-
+	fahatelo(R, L),
+	bilady(R, L1),
+	ampianaL(L, L1, V).
+
+haja(R, V) :-
+	fianahana(R, L),
+	abily(R, L1),
+	ampianaL(L, L1, V).
+
+fahasivy(R, V) :-
+	alisay(R, L),
+	fahavalo(R, L1),
+	ampianaL(L, L1, V).
