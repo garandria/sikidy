@@ -110,3 +110,14 @@ tr([[X1, X2, X3, X4],
     [F2, E2, D2, B2, A2, Z2, Y2, X2],
     [F3, E3, D3, B3, A3, Z3, Y3, X3],
     [F4, E4, D4, B4, A4, Z4, Y4, X4]]).
+
+zanany(R, V) :-
+	kiba(R, KIBA),
+	safary(R, SAFARY),
+	saily(R, SAILY),
+	asorita(R, ASORITA),
+	haky(R, HAKY),
+	haja(R, HAJA),
+	ombiasy(R, OMBIASY),
+	fahasivy(R, FAHASIVY),
+	tr([KIBA, SAFARY, SAILY, ASORITA, HAKY, HAJA, OMBIASY, FAHASIVY], V).
