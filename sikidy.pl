@@ -92,10 +92,21 @@ kiba(R, V) :-
 	ampianaL(L, L1, V).
 
 
-
-
 asehoy([]).
 asehoy([X|XS]):-
 	format( "\t ~p", [X]),
 	nl,
 	asehoy(XS).
+
+tr([[X1, X2, X3, X4],
+    [Y1, Y2, Y3, Y4],
+    [Z1, Z2, Z3, Z4],
+    [A1, A2, A3, A4],
+    [B1, B2, B3, B4],
+    [D1, D2, D3, D4],
+    [E1, E2, E3, E4],
+    [F1, F2, F3, F4]],
+   [[F1, E1, D1, B1, A1, Z1, Y1, X1],
+    [F2, E2, D2, B2, A2, Z2, Y2, X2],
+    [F3, E3, D3, B3, A3, Z3, Y3, X3],
+    [F4, E4, D4, B4, A4, Z4, Y4, X4]]).
