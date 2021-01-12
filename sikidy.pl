@@ -16,6 +16,9 @@ reniny([[2, 2, 2, 1],
 	[2, 2, 1, 1],
 	[2, 1, 1, 1]]).
 
+ankitsapaka([A, B, D, E]) :-
+	random(1, 3, A), random(1, 3, B),
+	random(1, 3, D), random(1, 3, E).
 
 % col
 
