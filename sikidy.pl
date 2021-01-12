@@ -9,3 +9,8 @@ ampianaL([X1, X2, X3, X4],
 	ampiana(X2, Y2, B),
 	ampiana(X3, Y3, D),
 	ampiana(X4, Y4, E).
+
+reniny([[2, 2, 2, 1],
+	[2, 2, 1, 2],
+	[2, 2, 1, 1],
+	[2, 1, 1, 1]]).
