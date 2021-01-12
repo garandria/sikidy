@@ -121,3 +121,23 @@ zanany(R, V) :-
 	ombiasy(R, OMBIASY),
 	fahasivy(R, FAHASIVY),
 	tr([KIBA, SAFARY, SAILY, ASORITA, HAKY, HAJA, OMBIASY, FAHASIVY], V).
+
+
+tareky([1, 1, 1, 1]).
+alasady([1, 1, 2, 2]).
+adalo([1, 2, 1, 2]).
+alokola([1, 2, 2, 1]).
+alotsimay([2, 1, 1, 2]).
+alohotsy([2, 1, 2, 1]).
+adabara([2, 2, 1, 1]).
+asombola([2, 2, 2, 2]).
+
+
+karija([1, 1, 1, 2]).
+alimizanda([1, 1, 2, 1]).
+alakarabo([1, 2, 1, 1]).
+renilaza([1, 2, 2, 2]).
+alakaosy([2, 1, 1, 1]).
+alaimora([2, 1, 2, 2]).
+alibiavo([2, 2, 1, 2]).
+alikisy([2, 2, 2, 1]).
