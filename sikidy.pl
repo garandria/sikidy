@@ -38,3 +38,11 @@ bilady([[A, _, _, _],
 	[D, _, _, _],
 	[E, _, _, _]], [A, B, D, E]).
 
+%  row
+
+fianahana([X|_], X).
+abily([_, X|_], X).
+alisay([_, _, X |_], X).
+fahavalo([_, _, _, X], X).
+
+
