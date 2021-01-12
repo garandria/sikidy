@@ -90,3 +90,12 @@ kiba(R, V) :-
 	haky(R, L),
 	tale(R, L1),
 	ampianaL(L, L1, V).
+
+
+
+
+asehoy([]).
+asehoy([X|XS]):-
+	format( "\t ~p", [X]),
+	nl,
+	asehoy(XS).
